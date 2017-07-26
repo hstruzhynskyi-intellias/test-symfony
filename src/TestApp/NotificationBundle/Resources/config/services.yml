@@ -1,0 +1,4 @@
+services:
+    test_app_notification.mailer:
+        class: TestApp\NotificationBundle\Service\MyMailer
+        arguments: ["@mailer", "@templating"]
